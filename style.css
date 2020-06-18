@@ -317,3 +317,54 @@ button.submit {
     width: 100px;
     margin-top: 50px;
 }
+
+/* footer */
+/* footer */ 
+
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    align-items: center;
+    height: 100%;
+    background-color: #fff;
+    color: #fff;
+  }
+  
+  footer p {
+    color: #000;
+  }
+  
+  .circle-around-icon {
+    border: 2px solid #000;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 15px;
+    background-color: #000;
+  }
+  
+  .fa-twitter-white {
+    color: #fff;
+  }
+  
+  .fa-facebook-white {
+    color: #fff;
+  }
+  
+  .fa-pinterest-white {
+    color: #fff;
+  }
+  
+  .fa-google-pluse-white {
+    color: #fff;
+  }
+  
+  /* media queries */
