@@ -368,3 +368,32 @@ footer {
   }
   
   /* media queries */
+
+  @media (max-width: 768px) {
+    .page-title {
+        
+        font-size: 24px;
+    }
+    .box-wrapper {
+        flex-direction: column;
+    }
+    .contact-wrapper {
+        flex-direction: column;
+        max-width: 100%;
+        text-align: center;
+        justify-content: center;
+        /* margin: 0 auto; */
+    }
+    .contact {
+        flex-direction: row;
+    }
+    .skill-description {
+        width: 100%;
+    }
+    .box-work {
+        display: inline;
+        max-height: 100%;
+        margin: 0 auto;
+    }
+    
+  }
