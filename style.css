@@ -395,5 +395,19 @@ footer {
         max-height: 100%;
         margin: 0 auto;
     }
+
+    .wrapper {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 0 auto;
+        
+    }
+    form {
+        padding-right: 0;
+    }
+
+    footer {
+        display: block;
+    }
     
   }
