@@ -453,6 +453,15 @@ footer p {
 
 /* media queries */
 
+@media (min-width: 768px) and (max-width: 1170px) {
+    .wrapper {
+        width: auto;
+    }
+    .box-wrapper-work {
+        display: block;
+        padding-left: 20%;
+    }
+}
 @media (max-width: 768px) {
     .container {
         padding: 0;
@@ -512,6 +521,7 @@ footer p {
     }
 
     .wrapper {
+        width: auto;
         padding-left: 40px;
         padding-right: 40px;
         margin: 0 auto;
